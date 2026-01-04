@@ -41,7 +41,7 @@ play: async ({ canvas, userEvent }) => {
      // Simulates pinning the first task
     await userEvent.click(canvas.getByLabelText('pinTask-1'));
      // Simulates pinning the third task
-     await userEvent.click(canvas.getByLabelText('pinTask-3'));
+     await userEvent.click(canvas.getByLabelText('pinTask-4'));
    });
  },
 };
